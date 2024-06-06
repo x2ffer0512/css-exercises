@@ -1,0 +1,16 @@
+.odd_number{
+    background-color: lightpink;
+}
+#second_header{
+    color:blue;
+    font-size: 36px;
+}
+
+.font_size{
+    font-size: 24px;
+}
+
+#third_header{
+    background-color: lightgreen;
+    font-weight: bold;
+}
