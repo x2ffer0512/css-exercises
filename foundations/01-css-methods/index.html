@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Methods for Adding CSS</title>
+    <style>
+      .font_size{
+        font-size: 18px;
+      }
+      #second_header{
+        background-color: green;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div id = "first_header">Style me via the external method!</div>
+    <p class="font_size" id="second_header">I would like to be styled with the internal method, please.</p>
+    <button class="font_size" style ="background-color: orange;">Inline Method</button>
   </body>
 </html>
